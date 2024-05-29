@@ -9,13 +9,15 @@ import virtualPiano from "../Images/VirtualPiano.jpg";
 import onlinePianoWithMidi from "../Images/midiPiano.jpg";
 import noteTrainer from "../Images/NoteTrainer.jpg";
 import PropTypes from "prop-types";
+import myPiano from "../Images/myPiano.png";
 
+const piano = "/Piano";
 // добавить свои наработки
 const ownInstruments = [
 	{
 		name: "MyPiano",
-		image: noteTrainer,
-		link: "https://musiclab.chromeexperiments.com/Shared-Piano/",
+		image: myPiano,
+		link: "/Piano",
 	},
 	{
 		name: "VirtualPiano(NoMidi)",
@@ -29,7 +31,7 @@ const externalInstruments = [
 	{
 		name: "SharedPiano(Midi)",
 		image: sharedPiano,
-		link: "https://musiclab.chromeexperiments.com/Shared-Piano/",
+		link: piano,
 	},
 	{
 		name: "VirtualPiano(NoMidi)",

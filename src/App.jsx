@@ -9,6 +9,7 @@ import Feedback from "./components/Feedback.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import SiteMap from "./components/SiteMap.jsx";
 import Contacts from "./components/Contacts.jsx";
+import Piano from "./components/Piano.jsx";
 
 function App() {
 	return (
@@ -25,7 +26,7 @@ function App() {
 				<Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
 				<Route path="/SiteMap" element={<SiteMap />} />
 				<Route path="/Contacts" element={<Contacts />} />
-				{/* <Route path="/Piano" element={<Piano />} /> */}
+				<Route path="/Piano" element={<Piano />} />
 			</Routes>
 		</Router>
 	);
