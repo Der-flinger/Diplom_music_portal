@@ -1,0 +1,22 @@
+@import "./css_styles/vars";
+@import "./css_styles/mixins";
+@import "./css_styles/knowledge_base.scss";
+@import "./css_styles/main.scss";
+
+html {
+	font-size: 16px;
+}
+* {
+	font-family: "Noto Serif", serif;
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 13px;
+	}
+}
+@media (max-width: 480px) {
+	html {
+		font-size: 10px;
+	}
+}

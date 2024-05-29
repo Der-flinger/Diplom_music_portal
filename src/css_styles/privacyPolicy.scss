@@ -1,0 +1,125 @@
+@import "vars";
+
+.policy-container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 40px;
+	background: linear-gradient(to bottom, #fcf6e3, #dfeffa);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.privacy-policy {
+	color: #333;
+	font-family: "Trebuchet MS", sans-serif;
+
+	&__title {
+		font-size: 2.2rem;
+		color: $colorLightBlue;
+		margin-bottom: 20px;
+		text-align: center;
+		border-bottom: 2px solid $colorLightBlue;
+		padding-bottom: 10px;
+	}
+
+	&__intro {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+		text-align: center;
+		line-height: 1.6;
+	}
+
+	&__section-title {
+		font-size: 1.8rem;
+		color: $colorLightBlue;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid $colorLightBlue;
+		padding-bottom: 5px;
+	}
+
+	&__text {
+		font-size: 1.4rem;
+		line-height: 1.6;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			font-size: 1.2rem;
+			line-height: 1.6;
+			margin-bottom: 10px;
+			padding-left: 20px;
+			position: relative;
+
+			&:before {
+				content: "♪";
+				position: absolute;
+				left: 0;
+				color: $colorLightBlue;
+			}
+		}
+	}
+}
+
+.user-agreement {
+	color: #333;
+	font-family: "Trebuchet MS", sans-serif;
+
+	&__title {
+		font-size: 2.2rem;
+		color: $colorMainOrange;
+		margin-bottom: 20px;
+		text-align: center;
+		border-bottom: 2px solid $colorMainOrange;
+		padding-bottom: 10px;
+	}
+
+	&__intro {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+		text-align: center;
+		line-height: 1.6;
+	}
+
+	&__section-title {
+		font-size: 1.8rem;
+		color: $colorMainOrange;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid $colorMainOrange;
+		padding-bottom: 5px;
+	}
+
+	&__text {
+		font-size: 1.4rem;
+		line-height: 1.6;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			font-size: 1.2rem;
+			line-height: 1.6;
+			margin-bottom: 10px;
+			padding-left: 20px;
+			position: relative;
+
+			&:before {
+				content: "♫";
+				position: absolute;
+				left: 0;
+				color: $colorMainOrange;
+			}
+		}
+	}
+}

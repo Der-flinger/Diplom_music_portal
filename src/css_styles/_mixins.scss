@@ -1,0 +1,15 @@
+@import "./vars";
+
+@mixin offerSection($offerImg) {
+	background-image: $offerImg;
+	background-position: center;
+	background-size: cover;
+}
+@mixin centering1440() {
+	padding-left: calc(50% - $widthContentSite / 2);
+	padding-right: calc(50% - $widthContentSite / 2);
+}
+@mixin centering1600() {
+	padding-left: calc(50% - $widthAdpativeSite / 2);
+	padding-right: calc(50% - $widthAdpativeSite / 2);
+}
