@@ -1,0 +1,16 @@
+@import "vars";
+.note__container {
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.note__title {
+	border: 2px solid $colorMainOrange;
+	border-radius: 15px;
+	padding: 50px 25px;
+	// margin: 0 auto;
+	text-align: center;
+	background-color: rgba($color: #fee6b6, $alpha: 0.5);
+	// box-shadow: ;
+}

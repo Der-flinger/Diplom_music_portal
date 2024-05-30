@@ -7,9 +7,10 @@ import pianoRhythm from "../Images/pianoRhythm.jpg";
 import sharedPiano from "../Images/SharedPiano.png";
 import virtualPiano from "../Images/VirtualPiano.jpg";
 import onlinePianoWithMidi from "../Images/midiPiano.jpg";
-import noteTrainer from "../Images/NoteTrainer.jpg";
+import noteTrainerExt from "../Images/NoteTrainer.jpg";
 import PropTypes from "prop-types";
 import myPiano from "../Images/myPiano.png";
+import noteTrainerOwn from "../Images/noteTrainerOwn.png";
 
 const piano = "/Piano";
 // добавить свои наработки
@@ -20,9 +21,9 @@ const ownInstruments = [
 		link: "/Piano",
 	},
 	{
-		name: "VirtualPiano(NoMidi)",
-		image: virtualPiano,
-		link: "https://www.music-theory.ru/index.php?option=com_content&view=article&id=460&Itemid=338&lang=ru",
+		name: "NoteTrainer",
+		image: noteTrainerOwn,
+		link: "/NoteTrainer",
 	},
 ];
 // добавить сторонние тренажеры и инструменты
@@ -44,8 +45,8 @@ const externalInstruments = [
 		link: "https://multiplayerpiano.com",
 	},
 	{
-		name: "OnlinePiano(Midi)",
-		image: noteTrainer,
+		name: "NoteTrainerOnline",
+		image: noteTrainerExt,
 		link: "http://bi2o2t.ru/training/notes",
 	},
 ];

@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import SiteMap from "./components/SiteMap.jsx";
 import Contacts from "./components/Contacts.jsx";
 import Piano from "./components/Piano.jsx";
+import NoteTrainer from "./components/NoteTrainer.jsx";
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 				<Route path="/SiteMap" element={<SiteMap />} />
 				<Route path="/Contacts" element={<Contacts />} />
 				<Route path="/Piano" element={<Piano />} />
+				<Route path="/NoteTrainer" element={<NoteTrainer />} />
 			</Routes>
 		</Router>
 	);
